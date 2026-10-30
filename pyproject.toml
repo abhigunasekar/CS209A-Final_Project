@@ -1,0 +1,16 @@
+# Run with: uv sync && uv run jupyter lab
+# Narrow environment for the Milestone 2 notebook, following the course sections.
+[project]
+name = "cs209a-final-project"
+version = "2026.0"
+description = "CS209A final project: Criteo uplift data wrangling"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "numpy>=2.3,<3",
+    "pandas>=3,<4",
+    "matplotlib>=3.10,<4",
+    "jupyterlab>=4,<5",
+]
+
+[project.optional-dependencies]
+verification = ["nbclient>=0.10,<1", "nbformat>=5.10,<6"]

@@ -11,13 +11,13 @@ A conversion observed after an ad is not necessarily a conversion caused by that
 | Item | Current status |
 | --- | --- |
 | Approved proposal | [`proposal.pdf`](proposal.pdf) |
-| Milestone 2 data notebook | [`final_project.ipynb`](final_project.ipynb), starter scaffold |
-| Cleaned data and verified counts | Pending data acquisition and notebook execution |
+| Milestone 2 data notebook | [`final_project.ipynb`](final_project.ipynb), executed Milestone 2 audit |
+| Cleaned data and verified counts | 13,979,592 rows × 16 columns; notebook executed on the corrected v2.1 release |
 | Revised proposal and slides | Pending Milestone 2 analysis |
 
 ## Milestone 2 scope
 
-The notebook will document data acquisition, file size, row and column meanings, types, summary statistics, missingness, unusual values, class balance, feature scales, and leakage checks. It will conclude with a precise revised question. Full EDA and baseline modeling are Milestone 3 work.
+The notebook downloads or reuses the corrected Criteo v2.1 release and documents file size, schema, numerical summaries, missingness, unusual values, class balance, feature scales, leakage, a cleaned table, and a revised question. It has been executed on the full dataset. Full EDA and baseline modeling are Milestone 3 work.
 
 ## Data and analysis guardrails
 
@@ -37,4 +37,8 @@ The notebook will document data acquisition, file size, row and column meanings,
 - Revised proposal: 1–2 page PDF grounded in verified cleaned data
 - Presentation slides: PDF for an 8–10 minute presentation
 
-Only the approved original proposal and notebook scaffold are currently included. The dataset is intentionally excluded from Git because of its size. See the [source](https://ailab.criteo.com/criteo-uplift-prediction-dataset/) for download details.
+The full source file is stored locally at `data/criteo-research-uplift-v2.1.csv.gz` and excluded from Git because of its size. The notebook can download and verify it on another machine. The original approved proposal is included; revised proposal and slides are pending.
+
+## Run locally
+
+From this folder, run `uv sync` and `uv run jupyter lab`, then open `final_project.ipynb` and run all cells. The environment is declared in [`pyproject.toml`](pyproject.toml). The notebook uses only NumPy, pandas, and Matplotlib. Fill in the Canvas group number and member names before submission.
