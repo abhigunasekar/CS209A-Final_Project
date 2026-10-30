@@ -11,7 +11,7 @@ A conversion observed after an ad is not necessarily a conversion caused by that
 | Item | Current status |
 | --- | --- |
 | Approved proposal | [`proposal.pdf`](proposal.pdf) |
-| Milestone 2 data notebook | [`milestone_2.ipynb`](milestone_2.ipynb), starter scaffold |
+| Milestone 2 data notebook | [`final_project.ipynb`](final_project.ipynb), starter scaffold |
 | Cleaned data and verified counts | Pending data acquisition and notebook execution |
 | Revised proposal and slides | Pending Milestone 2 analysis |
 
