@@ -17,7 +17,7 @@ A conversion observed after an ad is not necessarily a conversion caused by that
 
 ## Milestone 2 scope
 
-The notebook downloads or reuses the corrected Criteo v2.1 release and documents file size, schema, numerical summaries, missingness, unusual values, class balance, feature scales, leakage, a cleaned table, and a revised question. It has been executed on the full dataset. Full EDA and baseline modeling are Milestone 3 work.
+The notebook downloads or reuses the corrected Criteo v2.1 release and documents file size, schema, numerical summaries, missingness, unusual values, class balance, feature scales, leakage, a cleaned table, and a revised question. It has been executed on the full dataset and creates a seeded 5,000,000-row analysis sample with 14,494 conversions for later modeling. Full EDA and baseline modeling are Milestone 3 work.
 
 ## Data and analysis guardrails
 
