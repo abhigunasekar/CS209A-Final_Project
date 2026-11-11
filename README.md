@@ -6,7 +6,7 @@
 
 Abhi Gunasekar · Lily Nguyen · Matthew Surprenant · Parth Harish
 
-> **Project question:** At the same audience size, does targeting people with the highest estimated *incremental* conversion response generate more incremental conversions than targeting people with the highest predicted conversion probability without advertising?
+> **Project question:** Does advertising correlate to a statistically significant difference on conversion among those who are exposed to advertisements?
 
 An ad can precede a conversion without causing it. We use randomized treatment and control data to distinguish customers likely to convert anyway from customers whose conversion may be caused by advertising. The immediate Milestone 2 goal is to establish a trustworthy, usable table and a question the data can answer. Modeling and full exploratory analysis belong to Milestone 3.
 
