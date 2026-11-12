@@ -55,20 +55,20 @@ The approved-project list marks the project **Approved** and advises a laptop-si
 
 ### Revised proposal: one to two pages, PDF
 
-- [ ] Explain the revised question and how the data confirmed or changed the original proposal.
-- [ ] Link the source and give the cleaned table's row and column counts.
-- [ ] Summarize the findings that affect the plan: rare conversions, leakage, sample size, anonymization, and source limitations.
-- [ ] Specify proposed features, models, and held-out evaluation at equal audience sizes, with uncertainty.
-- [ ] Confirm the approved-project status and reflect the staff's sampling and interpretation caveats.
+- [x] Explain the revised question and how the data confirmed or changed the original proposal.
+- [x] Link the source and give the cleaned table's row and column counts.
+- [x] Summarize the findings that affect the plan: rare conversions, leakage, sample size, anonymization, and source limitations.
+- [x] Specify proposed features, models, and held-out evaluation at equal audience sizes, with uncertainty.
+- [x] Confirm the approved-project status and reflect the staff's sampling and interpretation caveats.
 
 ### Presentation and submission
 
-- [ ] Arrange the TF presentation for the week of November 9; allow 8–10 minutes presenting and about 10 minutes for discussion.
-- [ ] Ensure every member attends and speaks for roughly the same amount of time.
-- [ ] Make numbered slides with one main point each and readable, labeled plots.
-- [ ] Cover the question, source and unit of observation, data size and columns, cleaning decisions, revised question, staff caveats, and member next steps.
-- [ ] Export the slides and revised proposal as PDFs.
-- [ ] Upload the **slides PDF, revised proposal PDF, and notebook `.ipynb`** in one Canvas submission before the applicable deadline.
+- [x] Arrange the TF presentation for the week of November 9; allow 8–10 minutes presenting and about 10 minutes for discussion.
+- [x] Ensure every member attends and speaks for roughly the same amount of time.
+- [x] Make numbered slides with one main point each and readable, labeled plots.
+- [x] Cover the question, source and unit of observation, data size and columns, cleaning decisions, revised question, staff caveats, and member next steps.
+- [x] Export the slides and revised proposal as PDFs.
+- [x] Upload the **slides PDF, revised proposal PDF, and notebook `.ipynb`** in one Canvas submission before the applicable deadline.
 
 ## Run the notebook
 
